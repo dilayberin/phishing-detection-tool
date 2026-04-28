@@ -54,8 +54,8 @@ POST /api/phishing/analyze-url
 "riskScore": 60,
 "isPhishing": true,
 "indicators": [
-"URL contains suspicious keyword",
-"URL is unusually long"
+"URL şüpheli anahtar kelime içeriyor!",
+"URL çok uzun!"
 ]
 }
 
