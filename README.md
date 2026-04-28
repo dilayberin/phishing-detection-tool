@@ -72,3 +72,8 @@ POST /api/phishing/analyze-url
 - Integration with phishing datasets
 
 ---
+✔ IP detection
+✔ Subdomain detection
+✔ URL length detection
+✔ Suspicious keywords
+✔ @ attack detection
