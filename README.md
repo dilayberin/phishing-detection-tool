@@ -73,6 +73,7 @@ POST /api/phishing/analyze-url
 
 ---
 ##Completed : 
+
 ✔ IP detection
 
 ✔ Subdomain detection
