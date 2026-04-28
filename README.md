@@ -21,6 +21,7 @@ This project analyzes URLs to see if they might be phishing links by looking for
 This project follows a layered architecture:
 
 PhishingDetectionTool
+
 │
 ├── PhishingDetectionTool.Api → API Controllers
 ├── PhishingDetectionTool.Application → Business Logic & Services
