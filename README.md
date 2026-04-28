@@ -23,8 +23,11 @@ This project follows a layered architecture:
 PhishingDetectionTool
 
 │
+
 ├── PhishingDetectionTool.Api → API Controllers
+
 ├── PhishingDetectionTool.Application → Business Logic & Services
+
 └── PhishingDetectionTool.Domain → Entities & Core Models
 
 ---
