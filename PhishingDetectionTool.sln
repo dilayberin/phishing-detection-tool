@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishingDetectionTool.Api", "PhishingDetectionTool.Api\PhishingDetectionTool.Api.csproj", "{9BE8AFD7-AE97-4504-B32B-5D8A3E568238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishingDetectionTool.Application", "PhishingDetectionTool.Application\PhishingDetectionTool.Application.csproj", "{243E6C23-AA19-4C52-9247-270F6E06E346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhishingDetectionTool.Domain", "PhishingDetectionTool.Domain\PhishingDetectionTool.Domain.csproj", "{4C54D25F-158C-4DA6-9EEE-2FA0BC5B572C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE8AFD7-AE97-4504-B32B-5D8A3E568238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE8AFD7-AE97-4504-B32B-5D8A3E568238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE8AFD7-AE97-4504-B32B-5D8A3E568238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE8AFD7-AE97-4504-B32B-5D8A3E568238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{243E6C23-AA19-4C52-9247-270F6E06E346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{243E6C23-AA19-4C52-9247-270F6E06E346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{243E6C23-AA19-4C52-9247-270F6E06E346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{243E6C23-AA19-4C52-9247-270F6E06E346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C54D25F-158C-4DA6-9EEE-2FA0BC5B572C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C54D25F-158C-4DA6-9EEE-2FA0BC5B572C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C54D25F-158C-4DA6-9EEE-2FA0BC5B572C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C54D25F-158C-4DA6-9EEE-2FA0BC5B572C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
