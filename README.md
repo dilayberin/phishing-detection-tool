@@ -63,6 +63,19 @@ POST /api/phishing/analyze-url
 ]
 }
 
+## Detection Rules
+
+The system analyzes URLs using a rule-based approach. It checks:
+
+- HTTPS usage
+- IP-based domains
+- Suspicious keywords
+- Long URLs
+- Excessive subdomains
+- URL shortener services
+- Suspicious top-level domains
+- Special character density
+- @ symbol usage
 
 ## Future Improvements
 
