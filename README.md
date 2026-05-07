@@ -21,7 +21,7 @@ This project analyzes URLs using a rule-based detection approach and evaluates p
 
 The project follows a layered architecture structure:
 
-##Examples
+## Examples
 
 -  {
   "url": "http://paypal-login-security-update.xyz"
