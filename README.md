@@ -17,9 +17,7 @@ This project analyzes URLs using a rule-based detection approach and evaluates p
 
 ---
 
-## Project Architecture
 
-The project follows a layered architecture structure:
 
 ## Examples
 
@@ -81,6 +79,9 @@ The project follows a layered architecture structure:
 
 ---
 
+## Project Architecture
+
+The project follows a layered architecture structure:
 
 ```bash
 PhishingDetectionTool
