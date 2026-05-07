@@ -23,23 +23,32 @@ The project follows a layered architecture structure:
 
 ##Examples
 
--{
+-  {
   "url": "http://paypal-login-security-update.xyz"
-}
+}   
+
 
 <img width="503" height="293" alt="image" src="https://github.com/user-attachments/assets/8bfb3ab4-5d41-44d1-8b2c-d5664ae72bb2" />
 
--{
+
+
+-  {
   "url": "https://www.google.com"
 }
 
+
 <img width="480" height="218" alt="image" src="https://github.com/user-attachments/assets/48d445f9-90c6-484c-af53-a2de064cde42" />
 
--{
+
+
+-  {
   "url": "http://192.168.1.1/login"
 }
 
+
 <img width="487" height="277" alt="image" src="https://github.com/user-attachments/assets/bfcb0662-b6a4-4be9-a6c8-f97251bb6c58" />
+
+
 
 
 
