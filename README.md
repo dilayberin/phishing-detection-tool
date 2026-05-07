@@ -1,97 +1,60 @@
 # Phishing Detection API
 
-A basic phishing detection system built with **.NET 9 Web API**.
+A phishing detection system built with .NET 9 Web API.
 
-This project analyzes URLs to see if they might be phishing links by looking for suspicious keywords, strange URL patterns, or IP addresses.
+This project analyzes URLs using a rule-based detection approach and evaluates potential phishing risks based on suspicious patterns, keywords, and URL structures.
 
 ---
 
 ## Features
 
 - URL phishing analysis
-- Risk scoring system
+- Rule-based detection system
+- Risk scoring mechanism
 - Phishing indicator detection
-- REST API architecture
-- Swagger API documentation
+- RESTful API architecture
+- Swagger/OpenAPI documentation
 
 ---
 
 ## Project Architecture
 
-This project follows a layered architecture:
+The project follows a layered architecture structure:
 
+##Examples
+
+-{
+  "url": "http://paypal-login-security-update.xyz"
+}
+
+<img width="503" height="293" alt="image" src="https://github.com/user-attachments/assets/8bfb3ab4-5d41-44d1-8b2c-d5664ae72bb2" />
+
+-{
+  "url": "https://www.google.com"
+}
+
+<img width="480" height="218" alt="image" src="https://github.com/user-attachments/assets/48d445f9-90c6-484c-af53-a2de064cde42" />
+
+-{
+  "url": "http://192.168.1.1/login"
+}
+
+<img width="487" height="277" alt="image" src="https://github.com/user-attachments/assets/bfcb0662-b6a4-4be9-a6c8-f97251bb6c58" />
+
+
+
+
+```bash
 PhishingDetectionTool
 
-│
-
-├── PhishingDetectionTool.Api → API Controllers
-
-├── PhishingDetectionTool.Application → Business Logic & Services
-
-└── PhishingDetectionTool.Domain → Entities & Core Models
-
----
-
-## Technologies
-
-- .NET 9
-- ASP.NET Core Web API
-- Swagger / OpenAPI
-- Clean architecture principles
-
----
-
-## Example Request
-
-POST /api/phishing/analyze-url
-
-{
-"url": "http://paypa1-login-security.com
-"
-}
-
----
-
-## Example Response
-
-{
-"riskScore": 60,
-"isPhishing": true,
-"indicators": [
-"URL şüpheli anahtar kelime içeriyor!",
-"URL çok uzun!"
-]
-}
-
-## Detection Rules
-
-The system analyzes URLs using a rule-based approach. It checks:
-
-- HTTPS usage
-- IP-based domains
-- Suspicious keywords
-- Long URLs
-- Excessive subdomains
-- URL shortener services
-- Suspicious top-level domains
-- Special character density
-- @ symbol usage
-
-## Future Improvements
-
-- Domain extraction and analysis
-- WHOIS domain age verification
-- Subdomain phishing detection
-- Integration with phishing datasets
-
----
-## Completed :
-✔ IP detection
-
-✔ Subdomain detection
+├── PhishingDetectionTool.Api
+├── PhishingDetectionTool.Application
+└── PhishingDetectionTool.Domain
 
 ✔ URL length detection
 
 ✔ Suspicious keywords
 
 ✔ @ attack detection
+
+
